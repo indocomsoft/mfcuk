@@ -2,8 +2,12 @@ README
 ======
 
 Compiling:
-    automake
+    libtoolize
+    aclocal
     autoconf
+    autoheader
+    automake --add-missing
+    automake
     ./configure
     make
 
